@@ -1,0 +1,41 @@
+Git push: "fatal 'origin' does not appear to be a git repository - fatal Could not read from remote repository."
+Asked 6 years, 5 months ago
+Active 2 months ago
+Viewed 409k times
+149
+71
+
+I know similar questions have already been asked.
+
+But, I believe my issue is due to a mistake I have previously made and therefore is different: let me explain.
+
+Everything was working smoothly, as I could:
+
+    git add . all the files from my local repository.
+    git commit -m "message here" to add messages to my commits.
+    git push origin master to upload my files to GitHub.
+    git push heroku master to upload my files to Heroku.
+
+However, at some point, I created a new branch locally called add-calendar-model in case next steps of the app development would go south...
+
+... which is exactly what happened.
+
+However, despite many attempts, I did not manage to get the initial code — i.e. the code from before I created the new branch — from the master branch to my local repository.
+
+So, I decided to manually delete all the files from my local repository and git clone my master branch from GitHub.
+
+This way, I got all my files back, but now, I cannot push any more to the remote repository.
+
+Any time I try to run git push origin add-calendar-model or git push origin master, I get the following error:
+
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+I am not very comfortable with Git and GitHub, as you may have guessed by now, and I have to admit that I have no clue about how to fix this.
+
+Any idea?
+
+https://stackoverflow.com/questions/32238616/git-push-fatal-origin-does-not-appear-to-be-a-git-repository-fatal-could-n
