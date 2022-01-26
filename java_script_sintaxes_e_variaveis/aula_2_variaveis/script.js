@@ -14,5 +14,5 @@
 //var adicao=1+1;
 //console.log(adicao);
 
-var subtracao = 1 - 1;
-console.log(subtracao);
+///var subtracao = 1 - 1;
+//console.log(subtracao);
