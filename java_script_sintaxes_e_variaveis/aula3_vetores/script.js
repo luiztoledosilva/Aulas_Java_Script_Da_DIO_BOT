@@ -31,3 +31,14 @@ console.log(array); */
 
 /*array.splice(0, 3);
 console.log(array); */
+
+/*let novoarray = array.slice(0, 3);
+
+console.log(novoarray); */
+
+/*Array
+
+Sumário
+
+O objeto Array do JavaScript é um objeto global usado na construção de 
+'arrays': objetos de alto nível semelhantes a listas.*/
